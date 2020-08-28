@@ -23,7 +23,7 @@ port(clk: in std_logic;
       SH,SV: out std_logic;
       ena_rgb,ena_rgb2: BUFFER std_logic;
       fila,columna: buffer std_logic_vetor(9 downto 0));
-end component
+end component;
 
 begin
 buzzer <= '1';
